@@ -1,0 +1,126 @@
+@font-face {
+    font-family: PZf;
+    src: url('PrintAble4U.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    background: transparent;
+    background-color:rgb(0, 0, 0); ;
+}
+
+.fade {
+    transition: opacity 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+ 
+.PZf{
+    font-family: PZf, sans-serif;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+.WDTclass {
+    position: fixed;
+    top: 3.3%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 0.7vw;
+    white-space: pre;
+}
+.WDTbox {
+    position: fixed;
+    top: 3.3%;
+    width: 10vw; 
+    height: 1.5vh; 
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 0.4vw;
+    }
+
+.hp-class {
+    position: absolute;
+    top: 32%;
+    left: 6.8%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px black;
+}
+
+.ar-class {
+    position: absolute;
+    top: 48%;
+    left: 11.8%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 0.7vw;
+}
+
+.id-class {
+    position: absolute;
+    top: 78.1%;
+    left: 7.2%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 149, 255);
+    font-size: 0.7vw;
+}
+
+.sr-class {
+    position: absolute;
+    top: 78.1%;
+    left: 12.2%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 0.5vw;
+}
+
+
+
+.PZ-Logo {
+    position: fixed;
+    top: 5.5%;
+    right: 0.5%;
+    width: 8%;
+}
+.PZ-HealthBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+.health-bar {
+    width: 35%;
+    height: auto;
+    padding-left: 0.8%;
+    padding-bottom: 0.3%;
+}
+.FrameBar {
+    position: absolute;
+}
+.HpBar {
+    position: absolute;
+}
+.ArmorBar { /* -19 + num*0.19 */
+    position: absolute;
+}
+.StaminaBar {
+    position: absolute;    
+}
+.O2Bar {
+    position: absolute;    
+}
+
+
+
+
+.green {filter: brightness(100%) contrast(150%) sepia(1000%) hue-rotate(100deg) saturate(1000%);}
+.blue  {filter: brightness(90%)  contrast(150%) sepia(1000%) hue-rotate(180deg) saturate(1000%);}
+.red   {filter: brightness(80%)  contrast(150%) sepia(1000%) hue-rotate(310deg) saturate(1000%);}

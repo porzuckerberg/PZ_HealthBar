@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PZ-Health-Bar</title>
+    <link rel="stylesheet" href="PZ_HB_styles.css">
+</head>
+<body>   
+
+    <div class="PZ-HealthBar" style="display: Block;" id="O2-ID">
+        <img src="img/PZ_O2_Bar.png"     class="health-bar O2Bar">
+        <img src="img/PZ_O2_Frame.png"   class="health-bar FrameBar">
+        <img src="img/PZ_O2_BG.png"      class="health-bar " >
+    </div>
+    
+    <div class="PZ-HealthBar" style="display: Block;" id="PZ-HealthBar-ID">
+        <img src="img/PZHealthBar-HP.png"         class="health-bar HpBar">
+        <img src="img/PZHealthBar-Armor.png"      class="health-bar ArmorBar">
+        <img src="img/PZHealthBar-Stamina.png"    class="health-bar StaminaBar ">
+
+        <img src="img/PZHealthBarFrame.png"       class="health-bar FrameBar">
+
+        <img src="img/PZHealthBar-Npush.png"      class="health-bar FrameBar" id="Npush" style="display: None;">
+        <img src="img/PZHealthBar-Range.png"      class="health-bar FrameBar" id="range-bar" >
+        <img src="img/PZHealthBar-Slide.png"      class="health-bar FrameBar" id="slide-bar" >
+
+        <img src="img/PZHealthBar.png"  class="health-bar">
+        <div class="hp-class PZf" id="hp-id"></div>
+        <div class="ar-class PZf" id="ar-id"></div>
+        <div class="id-class PZf" id="id-id"></div>
+        <div class="sr-class PZf" id="sr-id"></div>
+    </div>
+
+    <img src="img/RRC.png" class="PZ-Logo" id="PZ-Logo">
+
+    <div id="WDTbox" class="WDTbox" style="right: 7.7%; width: 4vw; "></div>
+    <div id="WDTbox2" class="WDTbox" style="right: -4.1%; width: 8.8vw; "></div>
+
+    <div id="world-id"      class="WDTclass PZf" style="color: rgb(255, 255, 255); right: 9%;"></div>
+    <div id="time-id"       class="WDTclass PZf" style="color: rgb(255, 255, 255); right: 0.2%;"></div> 
+    <div id="date-id"       class="WDTclass PZf" style="color: rgb(255, 255, 255); right: 2.8%;"></div>
+    <div id="datetime-id"   class="WDTclass PZf" style="color: rgb(0, 183, 255);   right: 1.7%;">Time:</div>    
+    <div id="datetime-id"   class="WDTclass PZf" style="color: rgb(0, 183, 255);   right: 6.9%;">Date:</div>
+
+    <script src="PZ_HB_script.js"></script>
+</body>
+</html> 
